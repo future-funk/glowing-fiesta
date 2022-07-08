@@ -1,0 +1,50 @@
+{
+  "name": "@future-funk/eslint-things",
+  "version": "14.1.0",
+  "license": "MIT",
+  "description": "My personal ESLint config. Based on semistandard",
+  "author": "Pelle Wessman <pelle@kodfabrik.se> (https://kodfabrik.se/)",
+  "homepage": "https://github.com/voxpelli/eslint-config",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/voxpelli/eslint-config.git"
+  },
+  "engines": {
+    "node": "^14.18.0 || >=16.0.0"
+  },
+  "scripts": {
+    "sync-gh-actions": "ghat",
+    "test": "installed-check -i eslint-plugin-jsdoc && eslint .",
+    "prepare": "husky install"
+  },
+  "main": "index.js",
+  "devDependencies": {
+    "eslint": "^8.18.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-es": "^4.1.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsdoc": "^39.3.3",
+    "eslint-plugin-mocha": "^10.0.5",
+    "eslint-plugin-n": "^15.2.3",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-security": "^1.5.0",
+    "eslint-plugin-sort-destructure-keys": "^1.4.0",
+    "eslint-plugin-unicorn": "^42.0.0",
+    "ghat": "^0.14.0",
+    "husky": "^8.0.1",
+    "installed-check": "^6.0.1"
+  },
+  "peerDependencies": {
+    "eslint": "^8.18.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-es": "^4.1.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsdoc": "^39.3.3",
+    "eslint-plugin-mocha": "^10.0.5",
+    "eslint-plugin-n": "^15.2.3",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-security": "^1.5.0",
+    "eslint-plugin-sort-destructure-keys": "^1.4.0",
+    "eslint-plugin-unicorn": "^42.0.0"
+  }
+}
